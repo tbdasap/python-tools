@@ -1,5 +1,5 @@
 # Include all Python files in the package
-recursive-include tool1 *.py
+recursive-include sputavaaknr *.py
 
 # Exclude top-level tests and examples
 recursive-exclude tests *

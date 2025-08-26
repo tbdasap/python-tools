@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 ### pipenv requirements | sed 's/.*/"&",/' requirements.txt | grep -iv pypi >tomlreq
 ### and inserting the contents of tomreq
 [project]
-name = "sputavaak-nr"
+name = "sputavaaknr"
 version = "0.0.1"
 description = "Noise Remover for voice recording CLI"
 requires-python = ">=3.10"
@@ -45,5 +45,5 @@ dependencies = [
 sputavaaknr = "sputavaaknr.__main__:main"
 
 [tool.setuptools.packages.find]
-where = ["sputavaaknr"]
+where = ["src"]
 exclude = ["tests", "examples"]
